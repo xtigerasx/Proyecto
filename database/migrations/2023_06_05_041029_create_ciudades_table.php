@@ -13,12 +13,12 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('programas', function (Blueprint $table) {
-            $table->char('codprograma', 2);
-            $table->char('nomprograma', 30);
-            $table->char('facultad', 2);
-            $table->primary('codprograma');
-            $table->foreign('facultad')->references('codfacultad')->on('facultades');
+        Schema::create('ciudades', function (Blueprint $table) {
+            $table->char('codciudad', 5);
+            $table->char('nomciudad', 20);
+            $table->char('departamento', 2);
+            $table->primary('codciudad');
+            $table->foreign('departamento')->references('coddepto')->on('departamentos');
             $table->timestamps();
         });
     }
@@ -30,6 +30,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('programas');
+        Schema::dropIfExists('ciudades');
     }
 };
