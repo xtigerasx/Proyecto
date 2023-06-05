@@ -16,8 +16,29 @@ class Facultades extends Controller
     public function form_registro(){
         return view('facultades.form_registro');
     }
+    
     public function registrar(Request $r){
         $facultad = new Facultad();
+        $facultad->codfacultad = $r->input('codigoFacultad');
+        $facultad->nomfacultad = $r->input('nombreFacultad');
+        $facultad->save();
+        return redirect()->route('listadoFac');
+    }
+
+    public function eliminar($id){
+        $facultad = Facultad::findOrFail($id);
+        $facultad->delete();
+        return redirect()->route('listadoFac');
+    }
+
+    public function form_edita($id){
+        $facultad = Facultad::findOrFail($id);
+        return view('facultades.form_edita',
+            compact('facultad'));
+    }
+
+    public function actualizar(Request $r, $id){
+        $facultad = Facultad::findOrFail($id);
         $facultad->codfacultad = $r->input('codigoFacultad');
         $facultad->nomfacultad = $r->input('nombreFacultad');
         $facultad->save();

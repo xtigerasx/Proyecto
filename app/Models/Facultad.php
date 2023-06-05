@@ -9,6 +9,6 @@ use Illuminate\Database\Eloquent\Model;
 class Facultad extends Model
 {
    protected $table= 'facultades';
-   protected $primarykey = 'codfacultad';
+   protected $primaryKey = 'codfacultad';
    public $timestamps = true;
 }

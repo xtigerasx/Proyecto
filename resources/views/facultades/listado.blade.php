@@ -32,8 +32,8 @@
             <td> {{ $f -> codfacultad}}</td>
             <td> {{ $f -> nomfacultad}}</td>
             <td>
-                <a class="btn btn-primary">Editar</a>
-                <a class="btn btn-danger">Eliminar</a>
+                <a class="btn btn-primary" href="{{route('form_editar', $f->codfacultad)}}">Editar</a>
+                <a class="btn btn-danger" href="{{route('eliminaFac', $f->codfacultad)}}">Eliminar</a>
             </td>
         </tr>
         @endforeach
