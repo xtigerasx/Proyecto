@@ -3,10 +3,24 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
+use App\Models\Facultad;
 
 class Facultades extends Controller
 {
     public function index(){
-        return view('facultades.listado');
+        $facultades = DB::table('facultades')->get();
+        return view('facultades.listado', ['facultades' => $facultades]);
+    }
+
+    public function form_registro(){
+        return view('facultades.form_registro');
+    }
+    public function registrar(Request $r){
+        $facultad = new Facultad();
+        $facultad->codfacultad = $r->input('codigoFacultad');
+        $facultad->nomfacultad = $r->input('nombreFacultad');
+        $facultad->save();
+        return redirect()->route('listadoFac');
     }
 }
