@@ -19,29 +19,29 @@ class CiudadesSeeder extends Seeder
     {
         $datos=[
             [
-                'codciudad' => '10010',
-                'nomciudad' => 'San Juan de Pasto',
-                'departamento' => '10',
+                'codciudad' => '1001',
+                'nomciudad' => 'Pasto',
+                'departamento' => '52',
             ],
             [
-                'codciudad' => '10020',
-                'nomciudad' => 'Cali',
-                'departamento' => '20',
+                'codciudad' => '1002',
+                'nomciudad' => 'Mocoa',
+                'departamento' => '86',
             ],
             [
-                'codciudad' => '10030',
-                'nomciudad' => 'Medellín',
-                'departamento' => '30',
+                'codciudad' => '1003',
+                'nomciudad' => 'Puerto Asis',
+                'departamento' => '86',
             ],
             [
-                'codciudad' => '10040',
-                'nomciudad' => 'Bogotá',
-                'departamento' => '40',
+                'codciudad' => '1004',
+                'nomciudad' => 'Arauca',
+                'departamento' => '81',
             ],
             [
-                'codciudad' => '10050',
-                'nomciudad' => 'Ibagué',
-                'departamento' => '50',
+                'codciudad' => '1005',
+                'nomciudad' => 'Fortul',
+                'departamento' => '81',
             ]
         ];
         

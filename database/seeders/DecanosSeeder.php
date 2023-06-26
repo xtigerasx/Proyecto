@@ -20,29 +20,25 @@ class DecanosSeeder extends Seeder
         $datos=[
             [
                 'coddecano' => '10',
-                'nomdecano' => 'Gerardo Sánchez',
-                'facultad' => '10',
+                'nomdecano' => 'Pepito Perez',
+                'facultad' => '001',
             ],
             [
                 'coddecano' => '20',
-                'nomdecano' => 'Alexander Barón',
-                'facultad' => '20',
+                'nomdecano' => 'Martha Erazo',
+                'facultad' => '002',
             ],
             [
                 'coddecano' => '30',
-                'nomdecano' => 'Ana Palacios',
-                'facultad' => '30',
+                'nomdecano' => 'Mario Tulcan',
+                'facultad' => '003',
             ],
             [
                 'coddecano' => '40',
-                'nomdecano' => 'Jorge Pantoja',
-                'facultad' => '40',
+                'nomdecano' => 'Andres Almeida',
+                'facultad' => '004',
             ],
-            [
-                'coddecano' => '50',
-                'nomdecano' => 'Leonardo Enríquez',
-                'facultad' => '50',
-            ]
+            
         ];
 
         DB::table('decanos')->insert($datos);

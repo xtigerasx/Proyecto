@@ -20,33 +20,33 @@ class BarriosSeeder extends Seeder
         $datos=[
             [
                 'codbarrio' => '101',
-                'nombarrio' => 'San Ignacio',
-                'estbarrio' => 3,
-                'comuna' => 7
+                'nombarrio' => 'La Minga',
+                'estbarrio' => 2,
+                'comuna' => 5
             ],
             [
                 'codbarrio' => '102',
-                'nombarrio' => 'La Aurora',
-                'estbarrio' => 3,
-                'comuna' => 7
+                'nombarrio' => 'El Pilar',
+                'estbarrio' => 2,
+                'comuna' => 5
             ],
             [
                 'codbarrio' => '103',
-                'nombarrio' => 'El Bosque',
-                'estbarrio' => 4,
-                'comuna' => 7
+                'nombarrio' => 'Chapal',
+                'estbarrio' => 2,
+                'comuna' => 5
             ],
             [
                 'codbarrio' => '104',
-                'nombarrio' => 'Morasurco',
-                'estbarrio' => 5,
-                'comuna' => 9
+                'nombarrio' => 'La Rosa',
+                'estbarrio' => 2,
+                'comuna' => 5
             ],
             [
                 'codbarrio' => '105',
-                'nombarrio' => 'Las Cuadras',
-                'estbarrio' => 3,
-                'comuna' => 9
+                'nombarrio' => 'Santa Clara',
+                'estbarrio' => 2,
+                'comuna' => 5
             ]
         ];
 

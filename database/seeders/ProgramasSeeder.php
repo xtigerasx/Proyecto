@@ -20,28 +20,28 @@ class ProgramasSeeder extends Seeder
         $datos=[
             [
                 'codprograma' => '10',
-                'nomprograma' => 'Ing de Sistemas',
-                'facultad' => '20',
+                'nomprograma' => 'Ingenieria de Sistemas',
+                'facultad' => '001',
             ],
             [
                 'codprograma' => '20',
-                'nomprograma' => 'Música',
-                'facultad' => '10',
+                'nomprograma' => 'Derecho',
+                'facultad' => '002',
             ],
             [
                 'codprograma' => '30',
                 'nomprograma' => 'Ing Civil',
-                'facultad' => '20',
+                'facultad' => '001',
             ],
             [
                 'codprograma' => '40',
-                'nomprograma' => 'Medicina',
-                'facultad' => '30',
+                'nomprograma' => 'Arquitectura',
+                'facultad' => '004',
             ],
             [
                 'codprograma' => '50',
-                'nomprograma' => 'Psicología',
-                'facultad' => '30',
+                'nomprograma' => 'Castellano y Literatura',
+                'facultad' => '003',
             ]
         ];
 

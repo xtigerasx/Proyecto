@@ -19,25 +19,21 @@ class FacultadesSeeder extends Seeder
     {
         $datos=[
             [
-                'codfacultad' => '10',
+                'codfacultad' => '001',
+                'nomfacultad' => 'Ingenieria'
+            ],
+            [
+                'codfacultad' => '002',
+                'nomfacultad' => 'Derecho'
+            ],
+            [
+                'codfacultad' => '003',
+                'nomfacultad' => 'Educacion'
+            ],
+            [
+                'codfacultad' => '004',
                 'nomfacultad' => 'Artes'
             ],
-            [
-                'codfacultad' => '20',
-                'nomfacultad' => 'Ingeniería'
-            ],
-            [
-                'codfacultad' => '30',
-                'nomfacultad' => 'Salud'
-            ],
-            [
-                'codfacultad' => '40',
-                'nomfacultad' => 'Administración'
-            ],
-            [
-                'codfacultad' => '50',
-                'nomfacultad' => 'Derecho'
-            ]
         ];
 
         

@@ -20,28 +20,28 @@ class MateriasSeeder extends Seeder
         $datos=[
             [
                 'codmateria' => '10',
-                'nommateria' => 'Tópicos',
-                'cremateria' => 2,
+                'nommateria' => 'Programacion',
+                'cremateria' => 4,
             ],
             [
                 'codmateria' => '20',
-                'nommateria' => 'Ing de Software',
-                'cremateria' => 2,
+                'nommateria' => 'Bases de Datos',
+                'cremateria' => 4,
             ],
             [
                 'codmateria' => '30',
-                'nommateria' => 'Bases de Datos',
-                'cremateria' => 3,
+                'nommateria' => 'Robotica',
+                'cremateria' => 4,
             ],
             [
                 'codmateria' => '40',
-                'nommateria' => 'Programación',
+                'nommateria' => 'Ecosistemas',
                 'cremateria' => 4,
             ],
             [
                 'codmateria' => '50',
-                'nommateria' => 'Telematica',
-                'cremateria' => 2,
+                'nommateria' => 'Redes Neuronales',
+                'cremateria' => 4,
             ]
         ];
 

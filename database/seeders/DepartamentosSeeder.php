@@ -19,25 +19,17 @@ class DepartamentosSeeder extends Seeder
     {
         $datos=[
             [
-                'coddepto' => '10',
+                'coddepto' => '52',
                 'nomdepto' => 'Nariño'
             ],
             [
-                'coddepto' => '20',
-                'nomdepto' => 'Valle del Cauca'
+                'coddepto' => '86',
+                'nomdepto' => 'Putumayo'
             ],
             [
-                'coddepto' => '30',
-                'nomdepto' => 'Antioquia'
+                'coddepto' => '81',
+                'nomdepto' => 'Arauca'
             ],
-            [
-                'coddepto' => '40',
-                'nomdepto' => 'Cundinamarca'
-            ],
-            [
-                'coddepto' => '50',
-                'nomdepto' => 'Tolima'
-            ]
         ];
         
         DB::table('departamentos')->insert($datos);

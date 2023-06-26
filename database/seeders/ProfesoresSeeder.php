@@ -20,7 +20,7 @@ class ProfesoresSeeder extends Seeder
         $datos=[
             [
                 'codprofesor' => '10',
-                'nomprofesor' => 'Alexander Barón',
+                'nomprofesor' => 'Giovanny Hernandes',
                 'catprofesor' => '',
             ],
             [
@@ -30,17 +30,17 @@ class ProfesoresSeeder extends Seeder
             ],
             [
                 'codprofesor' => '30',
-                'nomprofesor' => 'Jesus Insuasty',
+                'nomprofesor' => 'Jorge Collazos',
                 'catprofesor' => '',
             ],
             [
                 'codprofesor' => '40',
-                'nomprofesor' => 'Juan Carlos Castillo',
+                'nomprofesor' => 'Javier Villalba',
                 'catprofesor' => '',
             ],
             [
                 'codprofesor' => '50',
-                'nomprofesor' => 'Marcela Guerrero',
+                'nomprofesor' => 'Juan Castillo',
                 'catprofesor' => '',
             ]
         ];
